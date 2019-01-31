@@ -1,0 +1,510 @@
+/*
+I, Kale McKay, 000764160, hereby verify all work is my own and not copied from elsewhere. I also certify that I not let anyone copy my work
+The purpose of this program is so create a log in page that verifies a log in and allows the logged in user to manipulate a database by inserting, modifying and deleting records.
+*/
+
+.login{
+    background-image: url("images/bg4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    margin-left: 35%;
+    margin-right: 35%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -175px;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+form{
+    background-image: url("images/bg4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    margin-left: 35%;
+    margin-right: 35%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -400px;
+    border-radius: 25px;
+    border: 1px solid black;
+
+}
+
+.form2{
+    background-image: url("images/bg4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    margin-left: 35%;
+    margin-right: 35%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: 25px;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+
+.light1{
+    background-image: url("images/bg4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    margin-left: 35%;
+    margin-right: 35%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -260px;
+    margin-left: -650px;
+    border-radius: 25px;
+    border: 1px solid black;   
+
+}
+
+.light2{
+    background-image: url("images/bg4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    margin-left: 35%;
+    margin-right: 35%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -220px;
+    margin-left: -175px;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+.light21{
+    background-image: url("images/bg4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    margin-left: 35%;
+    margin-right: 35%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: 40px;
+    margin-left: -175px;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+.light22{
+    background-image: url("images/bg4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    margin-left: 35%;
+    margin-right: 35%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -220px;
+    margin-left: -135px;
+    border-radius: 25px;
+    border: 1px solid black;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.light5{
+    background-image: url("images/bg4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    margin-left: 35%;
+    margin-right: 35%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: 80px;
+    margin-left: -175px;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+
+.light3{
+    background-image: url("images/bg4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    margin-left: 35%;
+    margin-right: 35%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -120px;
+    margin-left: 300px;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+.light4{
+    background-image: url("images/bg4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    margin-left: 35%;
+    margin-right: 35%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -260px;
+    margin-left: -580px;
+    border-radius: 25px;
+    border: 1px solid black;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+.div31{
+    width: 350px;
+    margin-left: 35%;
+    margin-right: 35%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: 55px;
+    border: 1px solid black;
+}
+.legend1{
+    color: lavenderblush;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.update{
+    margin-left: 24%;
+    margin-right: 25%;
+    border: none;
+    width: 50%;
+
+
+}
+.back{
+    bottom: 5px;
+    position: absolute;
+    background-color: appworkspace;
+    color: black;
+    padding: 5px 10px;
+    margin-left: 36.5%;
+    border: none;
+    width: 25%;
+    margin-bottom: 5px;
+    border-radius: 25px;
+
+}
+
+input.text, input.password {
+    width: 55%;
+    padding: 12px 20px;
+    margin-left: 22%;
+    margin-right: 25%;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+
+}
+
+h3,h4{
+    color: lavenderblush;
+    text-align: center;
+}
+th,td{
+    color: lavenderblush;
+}
+
+
+.button{
+    background-color: appworkspace;
+    color: black;
+    padding: 14px 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: none;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+
+}
+button{
+    background-color: appworkspace;
+    color: black;
+    padding: 14px 20px;
+    margin-left: 24%;
+    margin-right: 25%;
+    border: none;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+.buttonLog{
+    background-color: appworkspace;
+    color: black;
+    padding: 14px 20px;
+    margin-left: 20%;
+    margin-right: 25%;
+    border: none;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+
+button:hover, .button:hover, .back:hover, .buttonTop:hover, .logout:hover, .buttonTop2:hover, .lightside:hover, .darkside:hover, .logout1:hover {
+    opacity: 0.9;
+}
+
+
+
+.bgmain {
+
+    background-image: url("images/MainPage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgd{
+    background-image: url("images/deploy2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.bgs{
+    background-image: url("images/side23.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgr{
+    background-image: url("images/rebels.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logout{
+    background-image: url("images/logout.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.battles{
+    background-image: url("images/battles.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.active{
+    background-image: url("images/active.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+    color: lavenderblush;
+    text-align: center;
+}
+
+.bg3{
+    background-image: url("images/empire.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.deployed{
+    background-image: url("images/deployment.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.recon{
+    background-image: url("images/recon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.delete{
+    background-image: url("images/deaths.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+
+img.avatar {
+    width: 35%;
+    border-radius: 50%;
+}
+.buttonTop{
+    top: 5px;
+    position: absolute;
+    background-color: appworkspace;
+    color: black;
+    padding: 14px 20px;
+    margin-left: 35%;
+    border: none;
+    width: 10%;
+    margin-bottom: 20px;
+    border-radius: 25px; 
+
+}
+.buttonTop2{
+    top: 5px;
+    position: absolute;
+    background-color: appworkspace;
+    color: black;
+    padding: 14px 20px;
+    margin-left: 50%;
+    border: none;
+    width: 10%;
+    margin-bottom: 20px;
+    border-radius: 25px; 
+
+
+}
+.buttonTop3{
+    top: 5px;
+    position: absolute;
+    background-color: appworkspace;
+    color: black;
+    padding: 14px 20px;
+    margin-left: 33%;
+    border: none;
+    width: 30%;
+    margin-bottom: 20px;
+    border-radius: 25px; 
+
+
+}
+h5{
+    color:white;
+}
+.radio, h5{
+    display: inline;
+}
+.lightside2{
+    bottom: 5px;
+    position: absolute;
+    background-color: appworkspace;
+    color: black;
+    padding: 5px 10px;
+    margin-left: 50%;
+    border: none;
+    width: 10%;
+    margin-bottom: 5px;
+    border-radius: 25px;
+}
+.darkside2{
+    bottom: 5px;
+    position: absolute;
+    background-color: appworkspace;
+    color: black;
+    padding: 5px 10px;
+    margin-left: 37%;
+    border: none;
+    width: 10%;
+    margin-bottom: 5px;
+    border-radius: 25px;
+}
+.lightside{
+    bottom: 5px;
+    position: absolute;
+    background-color: appworkspace;
+    color: black;
+    padding: 5px 10px;
+    margin-left: 45%;
+    border: none;
+    width: 10%;
+    margin-bottom: 5px;
+    border-radius: 25px;
+}
+.darkside{
+    bottom: 5px;
+    position: absolute;
+    background-color: appworkspace;
+    color: black;
+    padding: 5px 10px;
+    margin-left: 33%;
+    border: none;
+    width: 10%;
+    margin-bottom: 5px;
+    border-radius: 25px;
+}
+.logout1{
+    bottom: 5px;
+    position: absolute;
+    background-color: appworkspace;
+    color: black;
+    padding: 5px 10px;
+    margin-left: 57%;
+    border: none;
+    width: 10%;
+    margin-bottom: 5px;
+    border-radius: 25px;
+}
+
+
+.lightside5{
+    bottom: 5px;
+    position: absolute;
+    background-color: appworkspace;
+    color: black;
+    padding: 5px 10px;
+    margin-left: 52%;
+    border: none;
+    width: 10%;
+    margin-bottom: 5px;
+    border-radius: 25px;
+}
+.darkside5{
+    bottom: 5px;
+    position: absolute;
+    background-color: appworkspace;
+    color: black;
+    padding: 5px 10px;
+    margin-left: 35%;
+    border: none;
+    width: 10%;
+    margin-bottom: 5px;
+    border-radius: 25px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+
+
